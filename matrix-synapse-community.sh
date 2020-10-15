@@ -3,7 +3,7 @@ echo "enter full name of room (found in the sharing link):"
 read chatroom
 echo "enter group name (i.e. +fakegroup:fakeserver.fake):"
 read group
-sudoi -u postgres -H -- psql -d synapse -c "SELECT user_id FROM users_in_public_rooms WHERE room_id = '$chatroom'" > group.sql
+sudo -u postgres -H -- psql -d synapse -c "SELECT user_id FROM users_in_public_rooms WHERE room_id = '$chatroom'" > group.sql
 less -FX group.sql
 echo -n "Does this look correct? (y/n)"
 read answer
