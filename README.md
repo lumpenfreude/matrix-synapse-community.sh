@@ -4,9 +4,11 @@
 
 # How-to:
 1.) Enter location of chatroom (the full !FEAVtear4qt4q:server.fake address), making sure to add a \ before it to escape the !. 
+
 2.) Enter the name of the group you want the people in the chatroom added to. 
+
 3.) Press enter.
 
 
 # **Use at your own risk!!!** 
-I definitely already messed up some stuff in my database making it, I can imagine you could easily do some serious database damage, especially on a 
+I definitely already messed up some stuff in my database making it, I can imagine you could easily do some serious database damage, especially on a large server. I dunno. Just. Be careful lol. It worked fine for me but WHO KNOWS. 
